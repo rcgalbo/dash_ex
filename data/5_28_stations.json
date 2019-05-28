@@ -1,0 +1,169 @@
+{
+  "items": [
+    {
+      "id": 26920,
+      "name": "016 BUFFALO",
+      "network_id": 78,
+      "unlocking_methods": ["pin_code"],
+      "sponsored": false,
+      "hub_id": null,
+      "inside_area": true,
+      "address": "John James Audubon Parkway, University at Buffalo, Buffalo",
+      "current_position": {
+        "type": "Point",
+        "coordinates": [-78.79603833333333, 42.999023333333334]
+      },
+      "bonuses": []
+    },
+    {
+      "id": 26924,
+      "name": "020 BUFFALO",
+      "network_id": 78,
+      "unlocking_methods": ["pin_code"],
+      "sponsored": false,
+      "hub_id": null,
+      "inside_area": true,
+      "address": "Frontier Road, University at Buffalo, Getzville",
+      "current_position": {
+        "type": "Point",
+        "coordinates": [-78.784565, 43.010333333333335]
+      },
+      "bonuses": []
+    },
+    {
+      "id": 6938,
+      "name": "REDDY 40",
+      "network_id": 78,
+      "unlocking_methods": ["pin_code"],
+      "sponsored": false,
+      "hub_id": null,
+      "inside_area": true,
+      "address": "Nowak Pier, Buffalo",
+      "current_position": {
+        "type": "Point",
+        "coordinates": [-78.903055, 42.913711666666664]
+      },
+      "bonuses": []
+    },
+    {
+      "id": 26951,
+      "name": "047 BUFFALO",
+      "network_id": 78,
+      "unlocking_methods": ["pin_code"],
+      "sponsored": false,
+      "hub_id": null,
+      "inside_area": true,
+      "address": "Center for the Arts, Coventry Rd, South Lake Village, North Bailey, New York",
+      "current_position": {
+        "type": "Point",
+        "coordinates": [-78.78301, 43.00149833333333]
+      },
+      "bonuses": []
+    },
+    {
+      "id": 7050,
+      "name": "REDDY 156",
+      "network_id": 78,
+      "unlocking_methods": ["pin_code"],
+      "sponsored": false,
+      "hub_id": null,
+      "inside_area": true,
+      "address": "251 Virginia Street, Buffalo",
+      "current_position": {
+        "type": "Point",
+        "coordinates": [-78.88217, 42.89468]
+      },
+      "bonuses": []
+    },
+    {
+      "id": 26910,
+      "name": "006 BUFFALO",
+      "network_id": 78,
+      "unlocking_methods": ["pin_code"],
+      "sponsored": false,
+      "hub_id": null,
+      "inside_area": true,
+      "address": "Sprague Road, University at Buffalo, Buffalo",
+      "current_position": {
+        "type": "Point",
+        "coordinates": [-78.79522333333334, 42.99467666666666]
+      },
+      "bonuses": []
+    },
+    {
+      "id": 7016,
+      "name": "REDDY 121",
+      "network_id": 78,
+      "unlocking_methods": ["pin_code"],
+      "sponsored": false,
+      "hub_id": null,
+      "inside_area": true,
+      "address": "308 Northampton Street, Buffalo",
+      "current_position": {
+        "type": "Point",
+        "coordinates": [-78.856035, 42.90753]
+      },
+      "bonuses": []
+    },
+    {
+      "id": 7061,
+      "name": "REDDY 169",
+      "network_id": 78,
+      "unlocking_methods": ["pin_code"],
+      "sponsored": false,
+      "hub_id": null,
+      "inside_area": true,
+      "address": "1350 Hertel Avenue, Buffalo",
+      "current_position": {
+        "type": "Point",
+        "coordinates": [-78.85821666666666, 42.947805]
+      },
+      "bonuses": []
+    },
+    {
+      "id": 7046,
+      "name": "REDDY 152",
+      "network_id": 78,
+      "unlocking_methods": ["pin_code"],
+      "sponsored": false,
+      "hub_id": null,
+      "inside_area": true,
+      "address": "225-237 Jersey Street, Buffalo",
+      "current_position": {
+        "type": "Point",
+        "coordinates": [-78.88841166666667, 42.900815]
+      },
+      "bonuses": []
+    },
+    {
+      "id": 26934,
+      "name": "030 BUFFALO",
+      "network_id": 78,
+      "unlocking_methods": ["pin_code"],
+      "sponsored": false,
+      "hub_id": null,
+      "inside_area": true,
+      "address": "147 American Campus Drive, Buffalo",
+      "current_position": {
+        "type": "Point",
+        "coordinates": [-78.80184166666666, 43.009101666666666]
+      },
+      "bonuses": []
+    },
+    {
+      "id": 29475,
+      "name": "03 BUFFALO",
+      "network_id": 78,
+      "unlocking_methods": ["pin_code"],
+      "sponsored": false,
+      "hub_id": null,
+      "inside_area": true,
+      "address": "147 American Campus Drive, Buffalo",
+      "current_position": {
+        "type": "Point",
+        "coordinates": [-78.80185166666666, 43.009096666666665]
+      },
+      "bonuses": []
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+id	1455
+name	Broadway Market Free Parking
+racks_amount	5
+description	
+network_id	78
+has_kiosk	false
+public	false
+display_method	auto
+collapse_bikes	true
+priority	false
+area_id	231
+address	1014 Broadway, Buffalo
+current_bikes	2
+available_bikes	2
+free_racks	2
+sponsored	false
+sponsored_bikes	0
