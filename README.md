@@ -1,4 +1,6 @@
-dash_ex: simple plot.ly dash examples running on a multi page app
+# dash_ex: 
+
+simple plot.ly dash examples running on a multi page app
 =================================================================
 
 > _turn your analytics log :( into an analytics hog :)_
