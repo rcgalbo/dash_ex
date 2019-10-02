@@ -16,4 +16,4 @@ installation instructions
 
 3. make a virtual environment
 
-4. ```pip install requirements.txt```
+4. ```pip install -r requirements.txt```
