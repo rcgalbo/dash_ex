@@ -1,10 +1,6 @@
 # dash_ex: 
 
-simple plot.ly dash examples running on a multi page app
-
-> _turn your analytics log :( into an analytics hog :)_
-
-go from data analytics zero to big data science #AI #ARTIFIICIALBIGDATASCIENCE hero with dash by launching your very own multi-page dashboard fully writtend in @Plotly dash. 
+simple plot.ly dash examples running on a multi page app fully writtend with @Plotly dash. 
 
 ![img](static/multi-page-app.git)
 
