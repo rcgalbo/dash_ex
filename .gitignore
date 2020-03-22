@@ -1,2 +1,5 @@
 __pycache__
 .python-version
+dash
+.DS_store
+.env

@@ -6,25 +6,12 @@ from app import app
 
 layout = html.Div(
     [
-        html.H3('dash 1'),
-        dcc.Dropdown(
-            id='app-1-dropdown',
-            options=[
-                {'label': 'App 1 - {}'.format(i), 'value': i}
-                for i in ['NYC', 'MTL', 'LA']
-            ],
-        ),
+        html.H3('dash 1 - map'),
+        html.Iframe(id='map', srcDoc=open('static/hospital_map.html').read()), 
         html.Div(id='app-1-display-value'),
-        dcc.Link('Go to dash 2', href='/dash2'),
+        dcc.Link('Go to dash 2 - data', href='/dash2'),
         html.Div(),
         dcc.Link('Return Home', href='/'),
     ]
 )
 
-
-@app.callback(
-    Output('app-1-display-value', 'children'),
-    [Input('app-1-dropdown', 'value')],
-)
-def display_value(value):
-    return 'You have selected "{}"'.format(value)

@@ -16,9 +16,9 @@ layout = html.Div(
             ],
         ),
         html.Div(id='home-display-value'),
-        dcc.Link('Go to dash1', href='/dash1'),
+        dcc.Link('Go to dash1 - map', href='/dash1'),
         html.Div(),
-        dcc.Link('Go to dash2', href='/dash2'),
+        dcc.Link('Go to dash2 - data', href='/dash2'),
     ]
 )
 

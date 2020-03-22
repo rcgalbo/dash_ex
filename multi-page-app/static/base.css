@@ -1,3 +1,8 @@
 html {
     font-size: 50px;
 }
+
+iframe {
+    width: 70%;
+    height: 300px;
+}
