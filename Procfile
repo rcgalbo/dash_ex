@@ -1,1 +1,1 @@
-web:gunicorn app:server
+web:gunicorn multi-page-app/index:server
