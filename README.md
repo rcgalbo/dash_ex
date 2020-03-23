@@ -2,7 +2,7 @@
 
 simple plot.ly dash examples running on a multi page app fully writtend with @Plotly dash. 
 
-![img](static/multi-page-app.git)
+[live demo](https://dash-ex.herokuapp.com/)
 
 
 installation instructions
