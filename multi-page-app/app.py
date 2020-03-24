@@ -23,10 +23,7 @@ app = dash.Dash()
 server = app.server
 app.config['suppress_callback_exceptions']=True
 
-external_css = [
-    'https://codepen.io/chriddyp/pen/bWLwgP.css',
-    '/static/base.css'
-]
+external_css = ['/static/base.css']
 for css in external_css:
     app.css.append_css({"external_url": css})
 
