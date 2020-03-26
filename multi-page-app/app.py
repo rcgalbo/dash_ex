@@ -15,20 +15,10 @@ folium_map = folium.Map(location=[40.738, -73.98],
 for data in zip(hospitals.LATITUDE,hospitals.LONGITUDE):
   marker = folium.CircleMarker(location=(data[0],data[1]),radius=1)
   marker.add_to(folium_map)
-folium_map.save(os.getcwd()+'/static/hospital_map.html')
+folium_map.save(os.getcwd()+'/assets/hospital_map.html')
 
 
 # read data
-app = dash.Dash()
+app = dash.Dash(__name__)
 server = app.server
 app.config['suppress_callback_exceptions']=True
-
-external_css = ['/static/base.css']
-for css in external_css:
-    app.css.append_css({"external_url": css})
-
-
-@app.server.route('/static/<path:path>')
-def static_file(path):
-    static_folder = os.path.join(os.getcwd(), 'static')
-    return send_from_directory(static_folder, path)
