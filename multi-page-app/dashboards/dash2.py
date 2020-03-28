@@ -4,9 +4,7 @@ import dash_core_components as dcc
 import dash_table
 
 from app import app
-import geopandas as gpd
-hospitals = gpd.read_file('https://opendata.arcgis.com/datasets/6ac5e325468c4cb9b905f1728d6fbf0f_0.geojson')
-hospitals = hospitals.drop('geometry',axis=1)
+from app import hospitals
 
 layout = html.Div(
     [
