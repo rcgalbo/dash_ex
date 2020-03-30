@@ -5,8 +5,17 @@ from flask import send_from_directory
 
 import geopandas as gpd
 import folium
+
+# create server
+app = dash.Dash(__name__)
+server = app.server
+app.config['suppress_callback_exceptions']=True
+
+
 hospitals = gpd.read_file('https://opendata.arcgis.com/datasets/6ac5e325468c4cb9b905f1728d6fbf0f_0.geojson')
 hospitals = hospitals.drop('geometry',axis=1)
+
+
 
 #create map
 folium_map = folium.Map(location=[40.738, -73.98],
@@ -21,7 +30,3 @@ for data in zip(hospitals.LATITUDE,hospitals.LONGITUDE,hospitals.NAME,hospitals.
 
 folium_map.save(os.getcwd()+'/assets/hospital_map.html') 
 
-# read data
-app = dash.Dash(__name__)
-server = app.server
-app.config['suppress_callback_exceptions']=True
