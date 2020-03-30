@@ -6,8 +6,8 @@ import dash_table
 from app import app
 from app import hospitals
 
-layout = html.Div(
-    [
+layout = html.Div(className='container',
+    children = [
         html.H3('dash 2 - data'),
         dash_table.DataTable(id='hospitals',
             columns = [{'name':i,'id':i} for i in hospitals.columns],
