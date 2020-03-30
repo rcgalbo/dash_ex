@@ -6,8 +6,9 @@ from app import app
 
 from app import hospitals
 # define homepage layout
-layout = html.Div(
-    [
+layout = html.Div(,
+    className='container',
+    children=[
         html.H3('Home Page - US Hospital Data'),
         html.P('Select state from dropdown to get the number of hospitals'),
         html.Div(id='home-display-value', className='col-8'),
@@ -26,8 +27,7 @@ layout = html.Div(
         dcc.Link('Go to dash1 - map', href='/dash1'),
         html.Div(),
         dcc.Link('Go to dash2 - data', href='/dash2'),
-    ],
-    className='container'
+    ]
 )
 
 
