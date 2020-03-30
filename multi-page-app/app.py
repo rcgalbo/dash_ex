@@ -19,6 +19,8 @@ for data in zip(hospitals.LATITUDE,hospitals.LONGITUDE,hospitals.NAME,hospitals.
   marker.add_child(folium.Popup(string))
   marker.add_to(folium_map)
 
+folium_map.save(os.getcwd()+'/assets/hospital_map.html') 
+
 # read data
 app = dash.Dash(__name__)
 server = app.server
