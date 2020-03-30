@@ -6,7 +6,7 @@ from app import app
 
 from app import hospitals
 # define homepage layout
-layout = html.Div(,
+layout = html.Div(
     className='container',
     children=[
         html.H3('Home Page - US Hospital Data'),
