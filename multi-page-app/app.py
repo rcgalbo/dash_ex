@@ -13,11 +13,11 @@ folium_map = folium.Map(location=[40.738, -73.98],
                         zoom_start=3,
                         tiles="CartoDB dark_matter")
 
-for data in zip(hospitals.LATITUDE,hospitals.LONGITUDE):
+for data in zip(hospitals.LATITUDE,hospitals.LONGITUDE,hospitals.NAME,hospitals.BEDS):
   marker = folium.CircleMarker(location=(data[0],data[1]),radius=1)
+  string = '{}\n# beds: {}'.format(data[2],data[3])
+  marker.add_child(folium.Popup(string))
   marker.add_to(folium_map)
-folium_map.save(os.getcwd()+'/assets/hospital_map.html')
-
 
 # read data
 app = dash.Dash(__name__)

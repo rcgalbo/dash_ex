@@ -6,10 +6,10 @@ from app import app
 
 from app import hospitals
 # define homepage layout
-layout = html.Div(
+layout = html.Div(id='contianer'
     [
-        html.H3('Home Page - simple data app'),
-        html.P('Select state to get the number of hospitals'),
+        html.H3('Home Page - US Hospital Data'),
+        html.P('Select state from dropdown to get the number of hospitals'),
         dcc.Dropdown(
             id='home-dropdown',
             options=[
@@ -37,4 +37,4 @@ def display_value(value):
         val = ''
     else:
         val = hospitals[hospitals.STATE == value].shape[0]
-    return 'You the state you have selected has {} hospitals'.format(val)
+    return 'The state you have selected has {} hospitals'.format(val)
